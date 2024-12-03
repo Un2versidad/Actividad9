@@ -38,7 +38,7 @@ public class ValidacionPassword {
             }
 
             List<String> resultados = new ArrayList<>();
-            ExecutorService executor = Executors.newSingleThreadExecutor(); // Un hilo para validar en orden
+            ExecutorService executor = Executors.newSingleThreadExecutor();
 
             System.out.println("\n╔══════════════════════════════════════════════════╗");
             System.out.println("║                   VERIFICACIÓN                   ║");
